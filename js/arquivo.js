@@ -1,4 +1,3 @@
-
 function testevar(){
     var mensagem = "Olá var";
     if (true){
