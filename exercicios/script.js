@@ -15,6 +15,6 @@ function verificar(){
     }
 }
 function contagem(){
-    let texto = Text(document.getElementById("texto").value);
-    document.getElementById("contagem").innerText = "Contagem em um parágrafo na página: " = texto.length;
+    let texto = String(document.getElementById("texto").value);
+    document.getElementById("contagem").innerText = texto.length;
 }
